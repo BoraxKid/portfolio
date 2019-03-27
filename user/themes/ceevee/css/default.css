@@ -140,7 +140,7 @@ table {
 }
 
 html {
-   font-size: 62.5%;
+   font-size: 100%;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -451,7 +451,7 @@ dd { margin: 0 0 0 20px; }
 
 /*  5. Images  --------------------------------------------------------- */
 
-img {
+img, video {
    max-width: 100%;
    height: auto;
 }
