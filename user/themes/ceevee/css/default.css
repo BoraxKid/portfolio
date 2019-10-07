@@ -28,7 +28,7 @@ e. Others
 
 @import url("fonts.css");
 @import url("fontello/css/fontello.css");
-@import url("font-awesome/css/font-awesome.min.css");
+@import url("fontawesome/css/all.min.css");
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -140,7 +140,7 @@ table {
 }
 
 html {
-   font-size: 62.5%;
+   font-size: 100%;
    -webkit-font-smoothing: antialiased;
 }
 
@@ -451,7 +451,7 @@ dd { margin: 0 0 0 20px; }
 
 /*  5. Images  --------------------------------------------------------- */
 
-img {
+img, video {
    max-width: 100%;
    height: auto;
 }
